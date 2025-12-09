@@ -12,9 +12,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      initialRoute: RoutesName.splash
-      onGenerateRoute: Routes.generateRoutes(),
+      initialRoute: RoutesName.splash,
+      onGenerateRoute: Routes.generateRoutes,
     );
-
   }
 }
